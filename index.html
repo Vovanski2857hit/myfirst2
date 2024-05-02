@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Атлас профессий</title>
+		<link rel="stylesheet" href="./fonts/stylesheet.css" />
+		<link rel="stylesheet" href="./css/scroll.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<section class="home" id="home">
+			<div class="cont">
+				<h1 class="home-title">Атлас профессий</h1>
+				<div class="home-cards">
+					<div class="home-card" data-card="pilot">
+						<img src="./img/1.png" alt="Пилот" class="home-img" />
+						<div class="home-info">
+							<h2 class="home-heading">Пилот</h2>
+							<button class="home-btn">подробнее</button>
+						</div>
+					</div>
+					<div class="home-card" data-card="voenosluz">
+						<img src="./img/2.png" alt="Военнослужащий" class="home-img" />
+						<div class="home-info">
+							<h2 class="home-heading">Военнослужащий</h2>
+							<button class="home-btn">подробнее</button>
+						</div>
+					</div>
+					<div class="home-card" data-card="inziner">
+						<img src="./img/3.png" alt="Инженер" class="home-img" />
+						<div class="home-info">
+							<h2 class="home-heading">Инженер</h2>
+							<button class="home-btn">подробнее</button>
+						</div>
+					</div>
+					<div class="home-card" data-card="programist">
+						<img src="./img/4.png" alt="Программист" class="home-img" />
+						<div class="home-info">
+							<h2 class="home-heading">Программист</h2>
+							<button class="home-btn">подробнее</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="popup" data-popup="pilot">
+			<div class="popup-wrapper">
+				<div class="popup-body">
+					<button type="button" class="popup-close"></button>
+					<div class="popup-scroll" id="popup-scroll">
+						<img
+							src="./img/open/1.png"
+							alt="Преимущества профессии пилота"
+							class="popup-img"
+						/>
+						<div class="popup-content">
+							<div class="popup-section">
+								<h3 class="popup-title">Преимущества профессии пилота</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Увлекательная профессия</h4>
+										<p class="popup-li__text">
+											Пилот - это увлекательная профессия, которая позволяет
+											летать по всему миру и видеть удивительные виды с небес
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Высокий уровень заработка</h4>
+										<p class="popup-li__text">
+											Профессия пилота обычно связана со значительным уровнем
+											заработка, особенно на более высоких уровнях
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Личное развитие</h4>
+										<p class="popup-li__text">
+											Пилот занимается постоянным обучением и развитием навыков,
+											что способствует личному и профессиональному росту
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="popup-section">
+								<h3 class="popup-title">Недостатки профессии пилота</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Требуемые квалификации</h4>
+										<p class="popup-li__text">
+											Чтобы стать пилотом, необходимо пройти обширную тренировку
+											и получить лицензию. Это требует значительных временных и
+											финансовых вложений. Кроме того, для поддержания лицензии
+											и продолжения карьеры, пилот должен проходить регулярные
+											обучения и медицинские проверки
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Отрыв от семьи и друзей</h4>
+										<p class="popup-li__text">
+											Работа пилота часто связана с длительными отсутствиями от
+											дома и частыми перелетами. Это может привести к социальной
+											изоляции и сложностям в поддержании стабильных отношений
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup" data-popup="voenosluz">
+			<div class="popup-wrapper">
+				<div class="popup-body">
+					<button type="button" class="popup-close"></button>
+					<div class="popup-scroll" id="popup-scroll">
+						<img
+							src="./img/open/2.png"
+							alt="Преимущества профессии военнослужащего"
+							class="popup-img"
+						/>
+						<div class="popup-content">
+							<div class="popup-section">
+								<h3 class="popup-title">
+									Преимущества профессии военнослужащего
+								</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Служба на благо общества</h4>
+										<p class="popup-li__text">
+											Помогает защитить страну и обеспечить безопасность граждан
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Профессиональная дисциплина</h4>
+										<p class="popup-li__text">
+											Обучение дисциплине, ответственности и управлению стрессом
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">
+											Возможности для карьерного роста
+										</h4>
+										<p class="popup-li__text">
+											Множество специализаций и возможностей продвижения по
+											службе
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">
+											Стабильный доход и социальные льготы
+										</h4>
+										<p class="popup-li__text">
+											Обеспечение зарплатой, медицинским страхованием и
+											пенсионными программами
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Разнообразие задач</h4>
+										<p class="popup-li__text">
+											Работа в различных сферах, от технических специальностей
+											до командно-штабных операций
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="popup-section">
+								<h3 class="popup-title">
+									Недостатки профессии военнослужащего
+								</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">
+											Физическая и эмоциональная нагрузка
+										</h4>
+										<p class="popup-li__text">
+											Риск травм, стресса и психологических проблем
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Разлука с семьей</h4>
+										<p class="popup-li__text">
+											Длительные периоды разлуки из-за учений или военных задач
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Риск жизни</h4>
+										<p class="popup-li__text">
+											Сложности и опасности, связанные с возможностью быть в
+											зоне боевых действий
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Дисциплина и иерархия</h4>
+										<p class="popup-li__text">
+											Строгие правила, ограничивающие свободу и личное
+											самовыражение
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Моральные дилеммы</h4>
+										<p class="popup-li__text">
+											Необходимость соблюдения кодекса воинской чести и участие
+											в военных операциях, возможно не согласующихся с личными
+											убеждениями
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup" data-popup="inziner">
+			<div class="popup-wrapper">
+				<div class="popup-body">
+					<button type="button" class="popup-close"></button>
+					<div class="popup-scroll" id="popup-scroll">
+						<img
+							src="./img/open/3.png"
+							alt="Преимущества профессии инженера"
+							class="popup-img"
+						/>
+						<div class="popup-content">
+							<div class="popup-section">
+								<h3 class="popup-title">Преимущества профессии инженера</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Творческий потенциал</h4>
+										<p class="popup-li__text">
+											Инженеры часто работают над уникальными проектами, что
+											открывает возможности для творчества и инноваций
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Высокий спрос</h4>
+										<p class="popup-li__text">
+											Инженеры всегда востребованы на рынке труда из-за своих
+											специализированных навыков
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Финансовая стабильность</h4>
+										<p class="popup-li__text">
+											Инженеры обычно зарабатывают достойные заработные платы и
+											имеют хорошие перспективы карьерного роста
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Разнообразие специализаций</h4>
+										<p class="popup-li__text">
+											Есть множество областей, в которых можно стать инженером,
+											от машиностроения до программирования, что позволяет
+											выбрать наиболее интересное направление
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="popup-section">
+								<h3 class="popup-title">Недостатки профессии инженера</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Высокие требования</h4>
+										<p class="popup-li__text">
+											Инженеры должны обладать высоким уровнем профессиональной
+											подготовки и быть готовыми к непрерывному обучению и
+											совершенствованию
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Ответственность</h4>
+										<p class="popup-li__text">
+											Ошибки инженера могут иметь серьезные последствия, поэтому
+											работа требует высокой ответственности и внимательности
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Рутинная работа обучения</h4>
+										<p class="popup-li__text">
+											В зависимости от специализации инженера, работа иногда
+											может быть рутинной и требовать многократного повторения
+											одного и того же вида задач
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Долгие рабочие часы</h4>
+										<p class="popup-li__text">
+											Некоторые специализации инженерии могут потребовать долгих
+											рабочих часов и работу по выходным для выполнения проектов
+											в срок
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup" data-popup="programist">
+			<div class="popup-wrapper">
+				<div class="popup-body">
+					<button type="button" class="popup-close"></button>
+					<div class="popup-scroll" id="popup-scroll">
+						<img
+							src="./img/open/4.png"
+							alt="Преимущества профессии программиста"
+							class="popup-img"
+						/>
+						<div class="popup-content">
+							<div class="popup-section">
+								<h3 class="popup-title">Преимущества профессии программиста</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Высокий спрос:</h4>
+										<p class="popup-li__text">
+											Спрос на специалистов в области программирования постоянно
+											растет, что обеспечивает множество возможностей для
+											трудоустройства
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Высокая зарплата</h4>
+										<p class="popup-li__text">
+											Программисты обычно получают хорошую оплату за свою
+											работу, особенно если они обладают специализированными
+											навыками
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Творческий потенциал</h4>
+										<p class="popup-li__text">
+											Создание программ и разработка новых решений позволяют
+											программистам проявлять свои творческие способности
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Гибкий график</h4>
+										<p class="popup-li__text">
+											В некоторых случаях программисты могут работать удаленно
+											или выбирать гибкий график работы
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="popup-section">
+								<h3 class="popup-title">Недостатки профессии программиста</h3>
+								<div class="popup-ul">
+									<div class="popup-li">
+										<h4 class="popup-li__title">Монотонность</h4>
+										<p class="popup-li__text">
+											Некоторые аспекты программирования могут быть монотонными
+											и требовать длительных периодов концентрации
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Стресс</h4>
+										<p class="popup-li__text">
+											Работа в области информационных технологий может быть
+											стрессовой из-за сроков и требований проектов
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Необходимость обучения</h4>
+										<p class="popup-li__text">
+											Быстрые изменения и постоянное развитие технологий требуют
+											постоянного обучения и саморазвития
+										</p>
+									</div>
+									<div class="popup-li">
+										<h4 class="popup-li__title">Сидячий образ жизни</h4>
+										<p class="popup-li__text">
+											Длительные часы, проведенные за компьютером, могут
+											привести к проблемам со здоровьем, связанными с сидячим
+											образом жизни
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./js/scroll.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
